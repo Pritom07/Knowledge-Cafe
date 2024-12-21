@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co.com/RQB99Qj/1.jpg",
+        "author": "Jane Doe",
+        "author_img": "https://i.ibb.co.com/Wy2KV1z/boy1.png",
+        "posted_date": "2024-12-20",
+        "reading_time": 5,
+        "title": "10 Tips to Improve Your Productivity",
+        "hash_tags": [
+            "#productivity",
+            "#selfhelp"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co.com/98CPBsD/2.png",
+        "author": "John Smith",
+        "author_img": "https://i.ibb.co.com/LdNK3ZN/girl1.jpg",
+        "posted_date": "2024-12-18",
+        "reading_time": 8,
+        "title": "The Ultimate Guide to Remote Work",
+        "hash_tags": [
+            "#remotework",
+            "#workfromhome"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co.com/dgc7SfM/3.png",
+        "author": "Emily Johnson",
+        "author_img": "https://i.ibb.co.com/jwbrfgC/boy2.jpg",
+        "posted_date": "2024-12-15",
+        "reading_time": 6,
+        "title": "Healthy Eating on a Budget",
+        "hash_tags": [
+            "#healthyeating",
+            "#budget"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co.com/LgsFqqt/4.jpg",
+        "author": "Michael Brown",
+        "author_img": "https://i.ibb.co.com/Dt38z19/girl2.jpg",
+        "posted_date": "2024-12-10",
+        "reading_time": 10,
+        "title": "Understanding Artificial Intelligence",
+        "hash_tags": [
+            "#AI",
+            "#technology"
+        ]
+    }
+]
