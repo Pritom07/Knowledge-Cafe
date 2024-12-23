@@ -6,19 +6,28 @@ import Header from './Components/Header/Header'
 
 function App() {
 
-  const [titles, settitles] = useState([]);
+  const [titles, Settitles] = useState([]);
+  const [times, Settimes] = useState(0);
 
   const titleshandling = (blog) => {
     const blogsarray = [...titles, blog];
-    settitles(blogsarray);
+    Settitles(blogsarray);
+  }
+
+  const settingtime = (title, reading_time) => {
+    const remaining = titles.filter(eachblog => eachblog.title !== title);
+    Settitles(remaining);
+    const newtimes = times + reading_time;
+    Settimes(newtimes);
+
   }
 
   return (
     <div>
       <Header></Header>
       <div className='flex justify-between max-w-6xl mx-auto'>
-        <Blogs titleshandling={titleshandling}></Blogs>
-        <Bookmark titles={titles}></Bookmark>
+        <Blogs titleshandling={titleshandling} settingtime={settingtime}></Blogs>
+        <Bookmark titles={titles} times={times}></Bookmark>
       </div>
     </div>
   )
